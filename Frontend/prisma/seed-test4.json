@@ -1,0 +1,921 @@
+{
+  "movies": [
+    {
+      "title": "The Shawshank Redemption",
+      "releaseDate": "1994-01-01",
+      "durationMinutes": 142,
+      "ageRating": "R",
+      "imdbScore": 10
+    },
+    {
+      "title": "The Godfather",
+      "releaseDate": "1972-01-01",
+      "durationMinutes": 175,
+      "ageRating": "R",
+      "imdbScore": 9.9
+    },
+    {
+      "title": "The Dark Knight",
+      "releaseDate": "2008-01-01",
+      "durationMinutes": 152,
+      "ageRating": "PG-13",
+      "imdbScore": 9.8
+    },
+    {
+      "title": "The Godfather Part II",
+      "releaseDate": "1974-01-01",
+      "durationMinutes": 202,
+      "ageRating": "R",
+      "imdbScore": 9.7
+    },
+    {
+      "title": "12 Angry Men",
+      "releaseDate": "1957-01-01",
+      "durationMinutes": 96,
+      "ageRating": "Approved",
+      "imdbScore": 9.6
+    },
+    {
+      "title": "The Lord of the Rings: The Return of the King",
+      "releaseDate": "2003-01-01",
+      "durationMinutes": 201,
+      "ageRating": "PG-13",
+      "imdbScore": 9.5
+    },
+    {
+      "title": "Schindler's List",
+      "releaseDate": "1993-01-01",
+      "durationMinutes": 195,
+      "ageRating": "R",
+      "imdbScore": 9.4
+    },
+    {
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "releaseDate": "2001-01-01",
+      "durationMinutes": 178,
+      "ageRating": "PG-13",
+      "imdbScore": 9.3
+    },
+    {
+      "title": "Pulp Fiction",
+      "releaseDate": "1994-01-01",
+      "durationMinutes": 154,
+      "ageRating": "R",
+      "imdbScore": 9.2
+    },
+    {
+      "title": "The Good, the Bad and the Ugly",
+      "releaseDate": "1966-01-01",
+      "durationMinutes": 178,
+      "ageRating": "R",
+      "imdbScore": 9.1
+    },
+    {
+      "title": "Forrest Gump",
+      "releaseDate": "1994-01-01",
+      "durationMinutes": 142,
+      "ageRating": "PG-13",
+      "imdbScore": 9
+    },
+    {
+      "title": "The Lord of the Rings: The Two Towers",
+      "releaseDate": "2002-01-01",
+      "durationMinutes": 179,
+      "ageRating": "PG-13",
+      "imdbScore": 8.9
+    },
+    {
+      "title": "Fight Club",
+      "releaseDate": "1999-01-01",
+      "durationMinutes": 139,
+      "ageRating": "R",
+      "imdbScore": 8.8
+    },
+    {
+      "title": "Inception",
+      "releaseDate": "2010-01-01",
+      "durationMinutes": 148,
+      "ageRating": "PG-13",
+      "imdbScore": 8.7
+    },
+    {
+      "title": "Star Wars: Episode V - The Empire Strikes Back",
+      "releaseDate": "1980-01-01",
+      "durationMinutes": 124,
+      "ageRating": "PG",
+      "imdbScore": 8.6
+    },
+    {
+      "title": "The Matrix",
+      "releaseDate": "1999-01-01",
+      "durationMinutes": 136,
+      "ageRating": "R",
+      "imdbScore": 8.5
+    },
+    {
+      "title": "Goodfellas",
+      "releaseDate": "1990-01-01",
+      "durationMinutes": 145,
+      "ageRating": "R",
+      "imdbScore": 8.4
+    },
+    {
+      "title": "Interstellar",
+      "releaseDate": "2014-01-01",
+      "durationMinutes": 169,
+      "ageRating": "PG-13",
+      "imdbScore": 8.3
+    },
+    {
+      "title": "One Flew Over the Cuckoo's Nest",
+      "releaseDate": "1975-01-01",
+      "durationMinutes": 133,
+      "ageRating": "R",
+      "imdbScore": 8.2
+    },
+    {
+      "title": "Se7en",
+      "releaseDate": "1995-01-01",
+      "durationMinutes": 127,
+      "ageRating": "R",
+      "imdbScore": 8.1
+    }
+  ],
+  "genres": [
+    "Action",
+    "Adventure",
+    "Biography",
+    "Crime",
+    "Drama",
+    "Fantasy",
+    "History",
+    "Mystery",
+    "Romance",
+    "Sci-Fi",
+    "Thriller",
+    "War",
+    "Western"
+  ],
+  "persons": [
+    "Aaron Eckhart",
+    "Al Pacino",
+    "Anne Hathaway",
+    "Ben Kingsley",
+    "Bob Gunton",
+    "Brad Pitt",
+    "Carrie Fisher",
+    "Carrie-Anne Moss",
+    "Christian Bale",
+    "Christopher Nolan",
+    "Clint Eastwood",
+    "David Fincher",
+    "Diane Keaton",
+    "Edward Norton",
+    "Eli Wallach",
+    "Elijah Wood",
+    "Elliot Page",
+    "Francis Ford Coppola",
+    "Frank Darabont",
+    "Gary Sinise",
+    "Harrison Ford",
+    "Heath Ledger",
+    "Helena Bonham Carter",
+    "Henry Fonda",
+    "Ian McKellen",
+    "Irvin Kershner",
+    "Jack Nicholson",
+    "James Caan",
+    "Jessica Chastain",
+    "Joe Pesci",
+    "John Travolta",
+    "Joseph Gordon-Levitt",
+    "Keanu Reeves",
+    "Kevin Spacey",
+    "Lana Wachowski",
+    "Laurence Fishburne",
+    "Lee J. Cobb",
+    "Lee Van Cleef",
+    "Leonardo DiCaprio",
+    "Liam Neeson",
+    "Lilly Wachowski",
+    "Louise Fletcher",
+    "Mark Hamill",
+    "Marlon Brando",
+    "Martin Balsam",
+    "Martin Scorsese",
+    "Matthew McConaughey",
+    "Milos Forman",
+    "Morgan Freeman",
+    "Peter Jackson",
+    "Quentin Tarantino",
+    "Ralph Fiennes",
+    "Ray Liotta",
+    "Robert De Niro",
+    "Robert Zemeckis",
+    "Robin Wright",
+    "Samuel L. Jackson",
+    "Sean Astin",
+    "Sergio Leone",
+    "Sidney Lumet",
+    "Steven Spielberg",
+    "Tim Robbins",
+    "Tom Hanks",
+    "Uma Thurman",
+    "Viggo Mortensen",
+    "Will Sampson"
+  ],
+  "movieGenres": [
+    {
+      "movieTitle": "The Shawshank Redemption",
+      "genreName": "Drama"
+    },
+    {
+      "movieTitle": "The Godfather",
+      "genreName": "Crime"
+    },
+    {
+      "movieTitle": "The Godfather",
+      "genreName": "Drama"
+    },
+    {
+      "movieTitle": "The Dark Knight",
+      "genreName": "Action"
+    },
+    {
+      "movieTitle": "The Dark Knight",
+      "genreName": "Crime"
+    },
+    {
+      "movieTitle": "The Dark Knight",
+      "genreName": "Drama"
+    },
+    {
+      "movieTitle": "The Dark Knight",
+      "genreName": "Thriller"
+    },
+    {
+      "movieTitle": "The Godfather Part II",
+      "genreName": "Crime"
+    },
+    {
+      "movieTitle": "The Godfather Part II",
+      "genreName": "Drama"
+    },
+    {
+      "movieTitle": "12 Angry Men",
+      "genreName": "Drama"
+    },
+    {
+      "movieTitle": "Schindler's List",
+      "genreName": "Biography"
+    },
+    {
+      "movieTitle": "Schindler's List",
+      "genreName": "Drama"
+    },
+    {
+      "movieTitle": "Schindler's List",
+      "genreName": "History"
+    },
+    {
+      "movieTitle": "Schindler's List",
+      "genreName": "War"
+    },
+    {
+      "movieTitle": "The Lord of the Rings: The Return of the King",
+      "genreName": "Adventure"
+    },
+    {
+      "movieTitle": "The Lord of the Rings: The Return of the King",
+      "genreName": "Fantasy"
+    },
+    {
+      "movieTitle": "The Lord of the Rings: The Return of the King",
+      "genreName": "Action"
+    },
+    {
+      "movieTitle": "The Lord of the Rings: The Return of the King",
+      "genreName": "Drama"
+    },
+    {
+      "movieTitle": "The Lord of the Rings: The Fellowship of the Ring",
+      "genreName": "Adventure"
+    },
+    {
+      "movieTitle": "The Lord of the Rings: The Fellowship of the Ring",
+      "genreName": "Fantasy"
+    },
+    {
+      "movieTitle": "The Lord of the Rings: The Fellowship of the Ring",
+      "genreName": "Action"
+    },
+    {
+      "movieTitle": "Pulp Fiction",
+      "genreName": "Crime"
+    },
+    {
+      "movieTitle": "Pulp Fiction",
+      "genreName": "Drama"
+    },
+    {
+      "movieTitle": "The Good, the Bad and the Ugly",
+      "genreName": "Western"
+    },
+    {
+      "movieTitle": "The Good, the Bad and the Ugly",
+      "genreName": "Adventure"
+    },
+    {
+      "movieTitle": "Forrest Gump",
+      "genreName": "Drama"
+    },
+    {
+      "movieTitle": "Forrest Gump",
+      "genreName": "Romance"
+    },
+    {
+      "movieTitle": "The Lord of the Rings: The Two Towers",
+      "genreName": "Adventure"
+    },
+    {
+      "movieTitle": "The Lord of the Rings: The Two Towers",
+      "genreName": "Fantasy"
+    },
+    {
+      "movieTitle": "The Lord of the Rings: The Two Towers",
+      "genreName": "Action"
+    },
+    {
+      "movieTitle": "Fight Club",
+      "genreName": "Drama"
+    },
+    {
+      "movieTitle": "Fight Club",
+      "genreName": "Thriller"
+    },
+    {
+      "movieTitle": "Inception",
+      "genreName": "Action"
+    },
+    {
+      "movieTitle": "Inception",
+      "genreName": "Sci-Fi"
+    },
+    {
+      "movieTitle": "Inception",
+      "genreName": "Thriller"
+    },
+    {
+      "movieTitle": "Star Wars: Episode V - The Empire Strikes Back",
+      "genreName": "Action"
+    },
+    {
+      "movieTitle": "Star Wars: Episode V - The Empire Strikes Back",
+      "genreName": "Adventure"
+    },
+    {
+      "movieTitle": "Star Wars: Episode V - The Empire Strikes Back",
+      "genreName": "Sci-Fi"
+    },
+    {
+      "movieTitle": "The Matrix",
+      "genreName": "Action"
+    },
+    {
+      "movieTitle": "The Matrix",
+      "genreName": "Sci-Fi"
+    },
+    {
+      "movieTitle": "Goodfellas",
+      "genreName": "Biography"
+    },
+    {
+      "movieTitle": "Goodfellas",
+      "genreName": "Crime"
+    },
+    {
+      "movieTitle": "Goodfellas",
+      "genreName": "Drama"
+    },
+    {
+      "movieTitle": "Interstellar",
+      "genreName": "Adventure"
+    },
+    {
+      "movieTitle": "Interstellar",
+      "genreName": "Drama"
+    },
+    {
+      "movieTitle": "Interstellar",
+      "genreName": "Sci-Fi"
+    },
+    {
+      "movieTitle": "One Flew Over the Cuckoo's Nest",
+      "genreName": "Drama"
+    },
+    {
+      "movieTitle": "Se7en",
+      "genreName": "Crime"
+    },
+    {
+      "movieTitle": "Se7en",
+      "genreName": "Drama"
+    },
+    {
+      "movieTitle": "Se7en",
+      "genreName": "Mystery"
+    },
+    {
+      "movieTitle": "Se7en",
+      "genreName": "Thriller"
+    }
+  ],
+  "movieCast": [
+    {
+      "movieTitle": "The Shawshank Redemption",
+      "personName": "Frank Darabont",
+      "role": "Director",
+      "characterName": null
+    },
+    {
+      "movieTitle": "The Godfather",
+      "personName": "Francis Ford Coppola",
+      "role": "Director",
+      "characterName": null
+    },
+    {
+      "movieTitle": "The Dark Knight",
+      "personName": "Christopher Nolan",
+      "role": "Director",
+      "characterName": null
+    },
+    {
+      "movieTitle": "The Godfather Part II",
+      "personName": "Francis Ford Coppola",
+      "role": "Director",
+      "characterName": null
+    },
+    {
+      "movieTitle": "12 Angry Men",
+      "personName": "Sidney Lumet",
+      "role": "Director",
+      "characterName": null
+    },
+    {
+      "movieTitle": "Schindler's List",
+      "personName": "Steven Spielberg",
+      "role": "Director",
+      "characterName": null
+    },
+    {
+      "movieTitle": "The Lord of the Rings: The Return of the King",
+      "personName": "Peter Jackson",
+      "role": "Director",
+      "characterName": null
+    },
+    {
+      "movieTitle": "The Lord of the Rings: The Fellowship of the Ring",
+      "personName": "Peter Jackson",
+      "role": "Director",
+      "characterName": null
+    },
+    {
+      "movieTitle": "Pulp Fiction",
+      "personName": "Quentin Tarantino",
+      "role": "Director",
+      "characterName": null
+    },
+    {
+      "movieTitle": "The Good, the Bad and the Ugly",
+      "personName": "Sergio Leone",
+      "role": "Director",
+      "characterName": null
+    },
+    {
+      "movieTitle": "Forrest Gump",
+      "personName": "Robert Zemeckis",
+      "role": "Director",
+      "characterName": null
+    },
+    {
+      "movieTitle": "The Lord of the Rings: The Two Towers",
+      "personName": "Peter Jackson",
+      "role": "Director",
+      "characterName": null
+    },
+    {
+      "movieTitle": "Fight Club",
+      "personName": "David Fincher",
+      "role": "Director",
+      "characterName": null
+    },
+    {
+      "movieTitle": "Inception",
+      "personName": "Christopher Nolan",
+      "role": "Director",
+      "characterName": null
+    },
+    {
+      "movieTitle": "Star Wars: Episode V - The Empire Strikes Back",
+      "personName": "Irvin Kershner",
+      "role": "Director",
+      "characterName": null
+    },
+    {
+      "movieTitle": "The Matrix",
+      "personName": "Lana Wachowski",
+      "role": "Director",
+      "characterName": null
+    },
+    {
+      "movieTitle": "The Matrix",
+      "personName": "Lilly Wachowski",
+      "role": "Director",
+      "characterName": null
+    },
+    {
+      "movieTitle": "Goodfellas",
+      "personName": "Martin Scorsese",
+      "role": "Director",
+      "characterName": null
+    },
+    {
+      "movieTitle": "Interstellar",
+      "personName": "Christopher Nolan",
+      "role": "Director",
+      "characterName": null
+    },
+    {
+      "movieTitle": "One Flew Over the Cuckoo's Nest",
+      "personName": "Milos Forman",
+      "role": "Director",
+      "characterName": null
+    },
+    {
+      "movieTitle": "Se7en",
+      "personName": "David Fincher",
+      "role": "Director",
+      "characterName": null
+    },
+    {
+      "movieTitle": "The Shawshank Redemption",
+      "personName": "Tim Robbins",
+      "role": "Actor",
+      "characterName": "Andy Dufresne"
+    },
+    {
+      "movieTitle": "The Shawshank Redemption",
+      "personName": "Morgan Freeman",
+      "role": "Actor",
+      "characterName": "Ellis \"Red\" Redding"
+    },
+    {
+      "movieTitle": "The Shawshank Redemption",
+      "personName": "Bob Gunton",
+      "role": "Actor",
+      "characterName": "Warden Norton"
+    },
+    {
+      "movieTitle": "The Godfather",
+      "personName": "Marlon Brando",
+      "role": "Actor",
+      "characterName": "Vito Corleone"
+    },
+    {
+      "movieTitle": "The Godfather",
+      "personName": "Al Pacino",
+      "role": "Actor",
+      "characterName": "Michael Corleone"
+    },
+    {
+      "movieTitle": "The Godfather",
+      "personName": "James Caan",
+      "role": "Actor",
+      "characterName": "Sonny Corleone"
+    },
+    {
+      "movieTitle": "The Dark Knight",
+      "personName": "Christian Bale",
+      "role": "Actor",
+      "characterName": "Bruce Wayne / Batman"
+    },
+    {
+      "movieTitle": "The Dark Knight",
+      "personName": "Heath Ledger",
+      "role": "Actor",
+      "characterName": "Joker"
+    },
+    {
+      "movieTitle": "The Dark Knight",
+      "personName": "Aaron Eckhart",
+      "role": "Actor",
+      "characterName": "Harvey Dent"
+    },
+    {
+      "movieTitle": "The Godfather Part II",
+      "personName": "Al Pacino",
+      "role": "Actor",
+      "characterName": "Michael Corleone"
+    },
+    {
+      "movieTitle": "The Godfather Part II",
+      "personName": "Robert De Niro",
+      "role": "Actor",
+      "characterName": "Vito Corleone"
+    },
+    {
+      "movieTitle": "The Godfather Part II",
+      "personName": "Diane Keaton",
+      "role": "Actor",
+      "characterName": "Kay Adams"
+    },
+    {
+      "movieTitle": "12 Angry Men",
+      "personName": "Henry Fonda",
+      "role": "Actor",
+      "characterName": "Juror 8"
+    },
+    {
+      "movieTitle": "12 Angry Men",
+      "personName": "Lee J. Cobb",
+      "role": "Actor",
+      "characterName": "Juror 3"
+    },
+    {
+      "movieTitle": "12 Angry Men",
+      "personName": "Martin Balsam",
+      "role": "Actor",
+      "characterName": "Juror 1"
+    },
+    {
+      "movieTitle": "Schindler's List",
+      "personName": "Liam Neeson",
+      "role": "Actor",
+      "characterName": "Oskar Schindler"
+    },
+    {
+      "movieTitle": "Schindler's List",
+      "personName": "Ralph Fiennes",
+      "role": "Actor",
+      "characterName": "Amon Goth"
+    },
+    {
+      "movieTitle": "Schindler's List",
+      "personName": "Ben Kingsley",
+      "role": "Actor",
+      "characterName": "Itzhak Stern"
+    },
+    {
+      "movieTitle": "The Lord of the Rings: The Return of the King",
+      "personName": "Elijah Wood",
+      "role": "Actor",
+      "characterName": "Frodo Baggins"
+    },
+    {
+      "movieTitle": "The Lord of the Rings: The Return of the King",
+      "personName": "Viggo Mortensen",
+      "role": "Actor",
+      "characterName": "Aragorn"
+    },
+    {
+      "movieTitle": "The Lord of the Rings: The Return of the King",
+      "personName": "Ian McKellen",
+      "role": "Actor",
+      "characterName": "Gandalf"
+    },
+    {
+      "movieTitle": "The Lord of the Rings: The Fellowship of the Ring",
+      "personName": "Elijah Wood",
+      "role": "Actor",
+      "characterName": "Frodo Baggins"
+    },
+    {
+      "movieTitle": "The Lord of the Rings: The Fellowship of the Ring",
+      "personName": "Ian McKellen",
+      "role": "Actor",
+      "characterName": "Gandalf"
+    },
+    {
+      "movieTitle": "The Lord of the Rings: The Fellowship of the Ring",
+      "personName": "Sean Astin",
+      "role": "Actor",
+      "characterName": "Samwise Gamgee"
+    },
+    {
+      "movieTitle": "Pulp Fiction",
+      "personName": "John Travolta",
+      "role": "Actor",
+      "characterName": "Vincent Vega"
+    },
+    {
+      "movieTitle": "Pulp Fiction",
+      "personName": "Samuel L. Jackson",
+      "role": "Actor",
+      "characterName": "Jules Winnfield"
+    },
+    {
+      "movieTitle": "Pulp Fiction",
+      "personName": "Uma Thurman",
+      "role": "Actor",
+      "characterName": "Mia Wallace"
+    },
+    {
+      "movieTitle": "The Good, the Bad and the Ugly",
+      "personName": "Clint Eastwood",
+      "role": "Actor",
+      "characterName": "Blondie"
+    },
+    {
+      "movieTitle": "The Good, the Bad and the Ugly",
+      "personName": "Eli Wallach",
+      "role": "Actor",
+      "characterName": "Tuco"
+    },
+    {
+      "movieTitle": "The Good, the Bad and the Ugly",
+      "personName": "Lee Van Cleef",
+      "role": "Actor",
+      "characterName": "Angel Eyes"
+    },
+    {
+      "movieTitle": "Forrest Gump",
+      "personName": "Tom Hanks",
+      "role": "Actor",
+      "characterName": "Forrest Gump"
+    },
+    {
+      "movieTitle": "Forrest Gump",
+      "personName": "Robin Wright",
+      "role": "Actor",
+      "characterName": "Jenny Curran"
+    },
+    {
+      "movieTitle": "Forrest Gump",
+      "personName": "Gary Sinise",
+      "role": "Actor",
+      "characterName": "Lt. Dan Taylor"
+    },
+    {
+      "movieTitle": "The Lord of the Rings: The Two Towers",
+      "personName": "Elijah Wood",
+      "role": "Actor",
+      "characterName": "Frodo Baggins"
+    },
+    {
+      "movieTitle": "The Lord of the Rings: The Two Towers",
+      "personName": "Viggo Mortensen",
+      "role": "Actor",
+      "characterName": "Aragorn"
+    },
+    {
+      "movieTitle": "The Lord of the Rings: The Two Towers",
+      "personName": "Ian McKellen",
+      "role": "Actor",
+      "characterName": "Gandalf"
+    },
+    {
+      "movieTitle": "Fight Club",
+      "personName": "Brad Pitt",
+      "role": "Actor",
+      "characterName": "Tyler Durden"
+    },
+    {
+      "movieTitle": "Fight Club",
+      "personName": "Edward Norton",
+      "role": "Actor",
+      "characterName": "The Narrator"
+    },
+    {
+      "movieTitle": "Fight Club",
+      "personName": "Helena Bonham Carter",
+      "role": "Actor",
+      "characterName": "Marla Singer"
+    },
+    {
+      "movieTitle": "Inception",
+      "personName": "Leonardo DiCaprio",
+      "role": "Actor",
+      "characterName": "Dom Cobb"
+    },
+    {
+      "movieTitle": "Inception",
+      "personName": "Joseph Gordon-Levitt",
+      "role": "Actor",
+      "characterName": "Arthur"
+    },
+    {
+      "movieTitle": "Inception",
+      "personName": "Elliot Page",
+      "role": "Actor",
+      "characterName": "Ariadne"
+    },
+    {
+      "movieTitle": "Star Wars: Episode V - The Empire Strikes Back",
+      "personName": "Mark Hamill",
+      "role": "Actor",
+      "characterName": "Luke Skywalker"
+    },
+    {
+      "movieTitle": "Star Wars: Episode V - The Empire Strikes Back",
+      "personName": "Harrison Ford",
+      "role": "Actor",
+      "characterName": "Han Solo"
+    },
+    {
+      "movieTitle": "Star Wars: Episode V - The Empire Strikes Back",
+      "personName": "Carrie Fisher",
+      "role": "Actor",
+      "characterName": "Princess Leia"
+    },
+    {
+      "movieTitle": "The Matrix",
+      "personName": "Keanu Reeves",
+      "role": "Actor",
+      "characterName": "Neo"
+    },
+    {
+      "movieTitle": "The Matrix",
+      "personName": "Laurence Fishburne",
+      "role": "Actor",
+      "characterName": "Morpheus"
+    },
+    {
+      "movieTitle": "The Matrix",
+      "personName": "Carrie-Anne Moss",
+      "role": "Actor",
+      "characterName": "Trinity"
+    },
+    {
+      "movieTitle": "Goodfellas",
+      "personName": "Ray Liotta",
+      "role": "Actor",
+      "characterName": "Henry Hill"
+    },
+    {
+      "movieTitle": "Goodfellas",
+      "personName": "Robert De Niro",
+      "role": "Actor",
+      "characterName": "James Conway"
+    },
+    {
+      "movieTitle": "Goodfellas",
+      "personName": "Joe Pesci",
+      "role": "Actor",
+      "characterName": "Tommy DeVito"
+    },
+    {
+      "movieTitle": "Interstellar",
+      "personName": "Matthew McConaughey",
+      "role": "Actor",
+      "characterName": "Cooper"
+    },
+    {
+      "movieTitle": "Interstellar",
+      "personName": "Anne Hathaway",
+      "role": "Actor",
+      "characterName": "Brand"
+    },
+    {
+      "movieTitle": "Interstellar",
+      "personName": "Jessica Chastain",
+      "role": "Actor",
+      "characterName": "Murph"
+    },
+    {
+      "movieTitle": "One Flew Over the Cuckoo's Nest",
+      "personName": "Jack Nicholson",
+      "role": "Actor",
+      "characterName": "Randle P. McMurphy"
+    },
+    {
+      "movieTitle": "One Flew Over the Cuckoo's Nest",
+      "personName": "Louise Fletcher",
+      "role": "Actor",
+      "characterName": "Nurse Ratched"
+    },
+    {
+      "movieTitle": "One Flew Over the Cuckoo's Nest",
+      "personName": "Will Sampson",
+      "role": "Actor",
+      "characterName": "Chief Bromden"
+    },
+    {
+      "movieTitle": "Se7en",
+      "personName": "Brad Pitt",
+      "role": "Actor",
+      "characterName": "David Mills"
+    },
+    {
+      "movieTitle": "Se7en",
+      "personName": "Morgan Freeman",
+      "role": "Actor",
+      "characterName": "William Somerset"
+    },
+    {
+      "movieTitle": "Se7en",
+      "personName": "Kevin Spacey",
+      "role": "Actor",
+      "characterName": "John Doe"
+    }
+  ]
+}

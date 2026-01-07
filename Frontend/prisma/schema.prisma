@@ -1,0 +1,113 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum UserRole {
+  user
+  admin
+}
+
+enum CastRole {
+  Director
+  Writer
+  Actor
+}
+
+model User {
+  userId       Int       @id @default(autoincrement()) @map("user_id")
+  username     String    @unique
+  email        String    @unique
+  passwordHash String    @map("password_hash")
+  fullName     String?   @map("full_name")
+  role         UserRole  @default(user)
+  createdAt    DateTime  @default(now()) @map("created_at")
+
+  favorites    Favorite[]
+
+  @@map("users")
+}
+
+model Movie {
+  movieId        Int       @id @default(autoincrement()) @map("movie_id")
+  title          String
+  originalTitle  String?   @map("original_title")
+  releaseDate    DateTime? @map("release_date") @db.Date
+  durationMinutes Int?     @map("duration_minutes")
+  ageRating      String?   @map("age_rating")
+  description    String?
+  storyline      String?
+  imdbScore      Decimal?  @map("imdb_score") @db.Decimal(3, 1)
+  imdbVoteCount  Int?      @map("imdb_vote_count")
+  posterUrl      String?   @map("poster_url")
+  coverUrl       String?   @map("cover_url")
+  trailerUrl     String?   @map("trailer_url")
+  createdAt      DateTime  @default(now()) @map("created_at")
+
+  genres         MovieGenre[]
+  cast           MovieCast[]
+  favorites      Favorite[]
+
+  @@map("movies")
+}
+
+model Genre {
+  genreId  Int          @id @default(autoincrement()) @map("genre_id")
+  name     String
+
+  movies   MovieGenre[]
+
+  @@map("genres")
+}
+
+model Person {
+  personId  Int       @id @default(autoincrement()) @map("person_id")
+  fullName  String    @map("full_name")
+  birthDate DateTime? @map("birth_date") @db.Date
+  avatarUrl String?   @map("avatar_url")
+  bio       String?
+
+  cast      MovieCast[]
+
+  @@map("persons")
+}
+
+model MovieGenre {
+  movieId Int @map("movie_id")
+  genreId Int @map("genre_id")
+
+  movie   Movie @relation(fields: [movieId], references: [movieId], onDelete: Cascade)
+  genre   Genre @relation(fields: [genreId], references: [genreId], onDelete: Cascade)
+
+  @@id([movieId, genreId])
+  @@map("movie_genres")
+}
+
+model MovieCast {
+  movieId       Int      @map("movie_id")
+  personId      Int      @map("person_id")
+  role          CastRole
+  characterName String?  @map("character_name")
+
+  movie  Movie  @relation(fields: [movieId], references: [movieId], onDelete: Cascade)
+  person Person @relation(fields: [personId], references: [personId], onDelete: Cascade)
+
+  @@id([movieId, personId, role])
+  @@map("movie_cast")
+}
+
+model Favorite {
+  userId    Int      @map("user_id")
+  movieId   Int      @map("movie_id")
+  createdAt DateTime @default(now()) @map("created_at")
+
+  user  User  @relation(fields: [userId], references: [userId], onDelete: Cascade)
+  movie Movie @relation(fields: [movieId], references: [movieId], onDelete: Cascade)
+
+  @@id([userId, movieId])
+  @@map("favorites")
+}

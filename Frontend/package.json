@@ -1,0 +1,48 @@
+{
+  "name": "film-consensus",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:schema:create": "node scripts/db/cli.js schema:create",
+    "db:schema:drop": "SEED_CONFIRM=YES node scripts/db/cli.js schema:drop",
+    "db:schema:reset": "SEED_CONFIRM=YES node scripts/db/cli.js schema:reset",
+    "db:push": "node scripts/db/cli.js push",
+    "db:seed": "node scripts/db/cli.js seed",
+    "db:cleanup": "SEED_CONFIRM=YES node scripts/db/cli.js cleanup",
+    "db:reset": "SEED_CONFIRM=YES node scripts/db/cli.js reset",
+    "db:validate": "node scripts/db/cli.js validate",
+    "db:test4:convert": "node scripts/db/cli.js test4:convert",
+    "db:test4:import": "SEED_CONFIRM=YES node scripts/db/cli.js test4:import",
+    "db:print-url": "node scripts/db/cli.js print-url",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev",
+    "prisma:studio": "prisma studio"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.22.0",
+    "clsx": "^2.1.1",
+    "next": "^14.2.35",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@react-grab/codex": "^0.0.97",
+    "@types/node": "^20.14.10",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.39.2",
+    "eslint-config-next": "^16.1.1",
+    "postcss": "^8.4.41",
+    "prisma": "^5.22.0",
+    "react-grab": "^0.0.97",
+    "tailwindcss": "^3.4.10",
+    "typescript": "^5.6.3"
+  }
+}

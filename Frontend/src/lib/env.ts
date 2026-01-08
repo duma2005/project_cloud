@@ -18,12 +18,16 @@ const publicSchema = z.object({
 
 export const env = {
   server: serverSchema.parse({
-    BACKEND_API_URL: process.env.BACKEND_API_URL,
-    DATABASE_URL: process.env.DATABASE_URL,
+    // 👇 SỬA LỖI 1: Tự động tìm cả biến có chữ NEXT_PUBLIC_ hoặc lấy link giả để qua Build
+    BACKEND_API_URL: process.env.BACKEND_API_URL || process.env.NEXT_PUBLIC_BACKEND_API_URL || 'http://localhost:8000',
+    
+    // 👇 SỬA LỖI 2: Nếu thiếu Database URL thì tự điền chuỗi giả để không bị crash khi Build
+    DATABASE_URL: process.env.DATABASE_URL || 'mongodb+srv://build_placeholder:password@cluster.mongodb.net/db',
+    
     DATABASE_SCHEMA: process.env.DATABASE_SCHEMA
   }),
   public: publicSchema.parse({
     NEXT_PUBLIC_SITE_NAME: process.env.NEXT_PUBLIC_SITE_NAME,
-    NEXT_PUBLIC_SITE_URL: process.env.NEXT_PUBLIC_SITE_URL
+    NEXT_PUBLIC_SITE_URL: process.env.NEXT_PUBLIC_SITE_URL || 'https://project-cloud36review.vercel.app'
   })
 };

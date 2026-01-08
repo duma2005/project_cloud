@@ -13,23 +13,26 @@ export const dynamic = 'force-dynamic';
 const inter = Inter({ subsets: ['latin'], display: 'swap', variable: '--font-inter' });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(env.public.NEXT_PUBLIC_SITE_URL),
+  //  Đã sửa: Điền cứng URL vào đây
+  metadataBase: new URL('https://project-cloud36review.vercel.app'),
+  
   title: {
-    default: env.public.NEXT_PUBLIC_SITE_NAME,
-    template: `%s · ${env.public.NEXT_PUBLIC_SITE_NAME}`
+    //  Đã sửa: Điền cứng tên App
+    default: 'Pause sas',
+    template: `%s`
   },
   description: 'Movie catalog and discovery experience inspired by IMDb.',
   alternates: { canonical: '/' },
   openGraph: {
     type: 'website',
-    siteName: env.public.NEXT_PUBLIC_SITE_NAME,
-    title: env.public.NEXT_PUBLIC_SITE_NAME,
+    siteName: 'Pause sas', // 👇 Đã sửa
+    title: 'Pause sas',    // 👇 Đã sửa
     description: 'Browse a curated movie catalog with ratings and metadata.',
-    url: env.public.NEXT_PUBLIC_SITE_URL
+    url: 'https://project-cloud36review.vercel.app' // 👇 Đã sửa
   },
   twitter: {
     card: 'summary_large_image',
-    title: env.public.NEXT_PUBLIC_SITE_NAME,
+    title: 'Pause sas', // 👇 Đã sửa
     description: 'Browse a curated movie catalog with ratings and metadata.'
   },
   robots: {
@@ -37,7 +40,6 @@ export const metadata: Metadata = {
     follow: true
   }
 };
-
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={inter.className}>

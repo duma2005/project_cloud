@@ -194,7 +194,7 @@ export function RatingPanel({ movieId }: { movieId: number }) {
       setStatus('idle');
     } catch (err) {
       setStatus('error');
-      setError(err?.message || GENERAL_ERROR);
+      setError((err as any).message || GENERAL_ERROR);
     }
   };
 

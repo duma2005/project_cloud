@@ -9,6 +9,7 @@ import { ChatbotWidget } from '@/components/chatbot-widget';
 import { GlobalJsonLd } from '@/app/schema-org';
 import { AuthProvider } from '@/components/auth-provider';
 
+export const dynamic = 'force-dynamic';
 const inter = Inter({ subsets: ['latin'], display: 'swap', variable: '--font-inter' });
 
 export const metadata: Metadata = {

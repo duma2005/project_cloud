@@ -2,7 +2,6 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import { Inter } from 'next/font/google';
 import './globals.css';
-import { env } from '@/lib/env';
 import { SiteHeader } from '@/components/site-header';
 import { SiteFooter } from '@/components/site-footer';
 import { ChatbotWidget } from '@/components/chatbot-widget';

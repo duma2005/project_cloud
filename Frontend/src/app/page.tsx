@@ -1,3 +1,5 @@
+// 👇 THÊM VÀO DÒNG ĐẦU TIÊN CỦA app/page.tsx
+export const dynamic = 'force-dynamic';
 import type { CSSProperties } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
